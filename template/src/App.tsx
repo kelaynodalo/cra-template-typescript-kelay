@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 const App: React.FC = (): JSX.Element => {
   return (
     <div className="text-center">
-      <header className="bg-app-dark flex flex-col min-h-screen items-center justify-center text-base text-app-light">
+      <header className="bg-app-dark flex flex-col min-h-screen items-center justify-center text-app-light">
         <img src={logo} className="motion-safe:animate-pulse" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
